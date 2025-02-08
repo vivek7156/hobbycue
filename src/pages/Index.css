@@ -1,0 +1,134 @@
+.section-1 img {
+  width: 100%;
+}
+
+.section-2 .card-1 {
+  color: black;
+  border: 1px solid #8064a2;
+  border-radius: 5px;
+}
+
+.add-new .desc {
+  font-size: 14px;
+  line-height: 21px;
+}
+.card-1 {
+  color: black;
+  border: 2px solid #8064a2;
+  border-radius: 5px;
+}
+
+.card-1-icon {
+  color: #8064a2;
+}
+
+.card-1-icon .custom-outline-btn {
+  color: #8064a2;
+  border-color: #8064a2;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.card-1:hover .card-1-icon {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.card-1:hover {
+  background-color: #8064a2;
+  color: white;
+  border-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+/* card-2 */
+.card-2 {
+  color: black;
+  border: 2px solid #77933c;
+  border-radius: 5px;
+}
+
+.card-2-icon {
+  color: #77933c;
+}
+
+.card-2:hover .card-2-icon {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-2:hover {
+  background-color: #77933c;
+  color: white;
+  border-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+/* card-3 */
+
+.card-3 {
+  color: black;
+  border: 2px solid #C0504D;
+  border-radius: 5px;
+}
+
+.card-3-icon {
+  color: #C0504D;
+}
+
+.card-3:hover .card-3-icon {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-3:hover {
+  background-color: #C0504D;
+  color: white;
+  border-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+/* card-4 */
+.card-4 {
+  color: black;
+  border: 2px solid #0096C8;
+  border-radius: 5px;
+}
+
+.card-4-icon {
+  color: #0096C8;
+}
+
+.card-4:hover .card-4-icon {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-4:hover {
+  background-color: #0096C8;
+  color: white;
+  border-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.sction-4-heading {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+/* add new */
+.add-new {
+  max-width: 840px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Your CSS rules for smaller screens here */
+  .sction-4-heading {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .add-new {
+    max-width: 100%;
+  }
+}

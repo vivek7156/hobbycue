@@ -1,0 +1,156 @@
+.navbar-container {
+  width: 100%;
+  margin: auto;
+}
+
+.navlink-icon {
+  font-size: 23px;
+}
+
+.custom-outline-btn {
+  color: #8064a2;
+  border-color: #8064a2;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.custom-outline-btn:hover {
+  background-color: #8064a2;
+  color: #ffffff;
+}
+
+.dropdown {
+  position: relative;
+  /* display: inline-block; */
+}
+.profile-dropdown-content {
+  position: absolute;
+  width: 150px;
+  right: 0;
+  transform: translateY(40%);
+  z-index: 1;
+  padding: 5px;
+}
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  width: 220px;
+  left: 0;
+  z-index: 1;
+}
+
+.space {
+  opacity: 0;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 3px;
+}
+
+.dropdown:hover .nav-dropdown-content {
+  display: block;
+}
+
+.nav-dropdown-link {
+  text-decoration: none;
+  color: #6d747a;
+}
+
+.nav-modal {
+  position: fixed;
+  z-index: 1060;
+  top: 5%;
+  left: 25%;
+  padding: 10px 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  /* transform: translateX(-50%) translateY(-80%); */
+  width: 50%;
+  /* height: 100%; */
+  background: white;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 960;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: gray;
+  filter: blur(10px);
+  opacity: 50%;
+}
+
+.footer .footer-heading {
+  color: #08090a;
+  font-weight: bold;
+}
+
+.footer li {
+  margin-top: 10px;
+  color: #08090a;
+  cursor: pointer;
+}
+
+@media (min-width: 100px) and (max-width: 330pxx) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  /* Your CSS rules for smaller screens here */
+}
+
+/* For screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  /* Your CSS rules for smaller screens here */
+  .space {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .dropdown {
+    margin-top: 5px;
+  }
+
+  .dropdown .light-icon {
+    size: 15px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .navlink-icon {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .nav-modal {
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+  }
+}
+
+.footer-item {
+  font-size: 12px; 
+  font-weight: 300;
+  color: #999fa4; 
+}
+
+/* For screens between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* For screens larger than 1024px */
+@media only screen and (min-width: 1024px) {
+}

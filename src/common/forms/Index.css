@@ -1,0 +1,34 @@
+.form {
+  width: 100%;
+}
+
+.show-password {
+  position: absolute;
+  right: 5%;
+  top: 8%;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  /* width: 20px;
+  height: 20px; */
+  border: 1px solid #8064a2;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+  background-color: #8064a2;
+}
+
+.custom-checkbox label {
+  font-size: 14px;
+}
+/* Custom CSS for the checkbox label */
+.custom-checkbox label {
+  font-weight: 400;
+}
+
+.forgot-link {
+  display: inline;
+  text-decoration: none;
+}
